@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Navigation from "./Navigation";
 
 const AddTeam = () => {
   const [input, changeInput] = useState({
@@ -68,6 +69,7 @@ const AddTeam = () => {
 
   return (
     <div>
+        <Navigation />
       <div className="container mt-4">
 
         <h2 className="text-center mb-4">Team Registration</h2>
