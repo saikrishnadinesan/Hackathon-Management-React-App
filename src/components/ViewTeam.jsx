@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Navigation from "./Navigation";
 
 
 const ViewTeam = () => {
@@ -35,7 +36,7 @@ const ViewTeam = () => {
   return (
     <div>
 
-
+        <Navigation />
 
       <div className="container mt-4">
 
